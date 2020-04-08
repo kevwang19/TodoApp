@@ -1,7 +1,7 @@
 # TodoApp
 
 System Requirements
-1. Node.js installed 
+1. Node.js
 2. Xcode and Cocoapods for iOS
 3. React Native CLI
 
