@@ -11,19 +11,19 @@ app.get("/", (req,res)=>{
 app.get("/tasks", (req,res)=>{
   var data = [
     {
-      'name' : 'Feed the dog',
-      'status' : 'Incomplete',
-      'time' : '10.5'
+      name: 'Feed the dog',
+      completed: false,
+      time: 10.5
     },
     {
-      'name' : 'Buy groceries',
-      'status' : 'Incomplete',
-      'time' : '11.5'
+      name: 'Buy groceries',
+      completed: false,
+      time: 11.5
     },
     {
-      'name' : 'Check mail',
-      'status' : 'Incomplete',
-      'time' : '13.5'
+      name: 'Check mail',
+      completed: false,
+      time: 13.5
     },
   ]
 
