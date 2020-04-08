@@ -16,9 +16,7 @@ Setting up the react native frontend (for iOS):
 3. Replace App.js from project creation with App.js downloaded from TodoExample on Github
 4. Replace package.json from project creation with package.json downloaded from TodoExample on Github
 5. npm install dependencies in project root directory
-6. cd ios, pod install, cd .. 
-6A. If you get an error something like "missing" script is too old or missing in the cocopoads step, try 
-  sudo xcode-select --switch /Applications/Xcode.app
+6. cd ios, pod install, cd ..   (if you get an error something like "missing" script is too old or missing in the cocopoads step, try: sudo xcode-select --switch /Applications/Xcode.app)
 7. npm start to start metro server at the root directory of react native project
 8. npx react-native run-ios to run the ios app (this must be done in a new terminal window, since the old one is now running metro server)
 9. The app should then load and run
